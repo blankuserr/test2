@@ -4,8 +4,8 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
     <constant name="struts.i18n.encoding" value="utf-8"></constant>
-    <package name="default" namespace="/" extends="struts-default">
-        <action name="count" class="cap.action.TimerAction" method="count">
+    <package name="default" namespace="/" extends="login">
+        <action name="login" class="cap.action.LoginAction" method="login">
             <interceptor-ref name="timer"/>
             <result name="success">/result.jsp</result>
         </action>
