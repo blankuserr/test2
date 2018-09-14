@@ -5,17 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.edu.cap</groupId>
-    <artifactId>struts1</artifactId>
+    <artifactId>struts5</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>../struts2</module>
-        <module>../struts3</module>
-        <module>../struts4</module>
-        <module>../struts5</module>
-    </modules>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
 
-    <name>struts1 Maven Webapp</name>
+    <name>struts5 Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -43,11 +37,10 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
         </dependency>
-
     </dependencies>
 
     <build>
-        <finalName>struts1</finalName>
+        <finalName>struts5</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
